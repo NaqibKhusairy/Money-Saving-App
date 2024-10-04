@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        forgotpassword.setOnClickListener(new View.OnClickListener() {
+        signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent r= new Intent(getApplicationContext(),SignIn.class);
