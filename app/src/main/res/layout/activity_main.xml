@@ -76,7 +76,7 @@
             android:text="Forgot Password?" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/loginbtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#55A69C"
