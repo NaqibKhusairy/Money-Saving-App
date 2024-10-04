@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "939499086264",
+    "project_id": "money-saving-b8d28",
+    "storage_bucket": "money-saving-b8d28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939499086264:android:fc50fb18d2c7104bc2af4d",
+        "android_client_info": {
+          "package_name": "com.naqib.moneysaving"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX3hfuWClaXl23zB9NAoQkLaaBbiNsiMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

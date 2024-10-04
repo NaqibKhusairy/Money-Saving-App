@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/qibjelogo"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="MY SAVING MONEY"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qibjelogo" />
+
+    <LinearLayout
+        android:id="@+id/loginlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/rounded_background"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tile"
+        app:layout_constraintVertical_bias="0.01999998">
+
+        <TextView
+            android:id="@+id/logintitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:text="LOGIN"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/enterid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Enter ID" />
+
+        <EditText
+            android:id="@+id/enterpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/forgotpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#55A69C"
+            android:text="LOGIN" />
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Dont have an account? Sign Up" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
