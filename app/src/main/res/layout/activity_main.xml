@@ -82,12 +82,30 @@
             android:backgroundTint="#55A69C"
             android:text="LOGIN" />
 
-        <TextView
-            android:id="@+id/signup"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Dont have an account? Sign Up" />
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/signuptxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Dont have an account?" />
+
+            <TextView
+                android:id="@+id/signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20px"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:text="@string/sign_up_underline"/>
+        </LinearLayout>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
